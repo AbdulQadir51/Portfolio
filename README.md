@@ -9,8 +9,14 @@ I tried to apply the criteria of acceptance in order to improve my skills and bu
     According to my understanding, I have made sure that the page is viewable on various screens and devices, as well as presenting a responsive layout that adapts to the user's viewport.
     In order to make the code readable and understandable, I have tried to comment it as often as possible.
 
-    Have added links to git hub profile and url deployed pages
+  
+## Github Repo Link
+https://github.com/AbdulQadir51/Portfolio
 
-    https://github.com/AbdulQadir51/Portfolio
+## Deployed Link
+https://abdulqadir51.github.io/Portfolio/
+    
+## Screnshots
+![screenshot 1](https://abdulqadir51.github.io/Portfolio/screenshot1.png) 
+![screenshot 2](https://abdulqadir51.github.io/Portfolio/screenshot2.png) 
 
-    https://abdulqadir51.github.io/Portfolio/
