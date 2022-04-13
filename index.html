@@ -29,7 +29,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Me</a>
+                    <a class="navbar-brand" href="#about">Me</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
@@ -56,7 +56,7 @@
         </nav>
         <!-- About Me Container -->
         <!-- container with bg-1 -->
-        <div class="container-fluid bg-1 text-center">
+        <div id="about" class="container-fluid bg-1 text-center">
             <h3 class="title">About Me</h3>
             <!-- Avatar image with bootstrap img-circle class -->
             <img
@@ -85,20 +85,25 @@
         <div id="work" class="container-fluid bg-2 text-center">
             <div class="col-md-8 col-md-offset-2" class="work-content">
                 <h3 class="title">Work</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>I'm AbdulQadir Essa UX / UI Designer. I am passionate about solving business problems through human-centered design.
+                    Curious by nature and business-minded.</p>
+                    <p>I create layouts that adjust to any type of screen size, desktop, tablet or mobile.</p>
+                    <p>Here are some of the projects which I have worked:</p>
             </div>
             <!-- work Gallery -->
             <div class="row">
-                <div class="col-md-6">
+                <!--Team GTA Project-->
+                <div class="col-md-6 project">
                     <!--  zoom class for zoom effect -->
-                    <div class="box zoom">
-                        <img src="images/project-1.jpg" alt="Photo Agency Website">
+                    <a class="box zoom" target="_blank" href="https://teamgta.github.io/GetawayfromGTA/">
+                        <img src="images/teamgta.png" alt="teamgta">
                         <div class="text">
-                            <h1>Agency Website</h1>
+                            <h1>Getaway from GTA</h1>
                         </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="col-md-6">
+                <!--Projects-->
+                <div class="col-md-6 project">
                     <!--  zoom class for zoom effect -->
                     <div class="box zoom">
                         <img src="images/project-2.jpg" alt="E-Commerce Website">
@@ -107,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 project">
                     <!--  zoom class for zoom effect -->
                     <div class="box zoom">
                         <img src="images/project-3.jpg" alt="Restaurant Website">
@@ -116,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 project">
                     <div class="box zoom">
                         <!--  zoom class for zoom effect -->
                         <img src="images/project-4.jpg" alt="E-Commerce Website">
@@ -139,7 +144,7 @@
                             <i class="fas fa-phone "></i> +14372485253
                         </div>
                         <div>
-                            <i class="far fa-envelope "></i> walter@company.com
+                            <a href="mailto:abdulessa93@gmail.com"><i class="far fa-envelope "></i> abdulessa93@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -154,7 +159,8 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="https://github.com" title="Github">
+                                    <!--Github link-->
+                                    <a class="nav-link" target="_blank" href="https://github.com/AbdulQadir51" title="Github">
                                         <i class="fab fa-github"></i>
                                         <span class="menu-title sr-only">Github</span>
                                     </a>
@@ -185,8 +191,11 @@
                 <a href="#">Abdul Qadir Essa</a>
             </p>
         </footer>
+        <!--Jquery script-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <!--Bootstarp script-->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+         <!--portfolio script-->
         <script src="scripts/main.js"></script>
     </body>
 </html>
