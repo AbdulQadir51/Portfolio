@@ -205,7 +205,7 @@ p {
 .cv-block .info-card h2 {
     margin-top: 0;
     margin-bottom: 24px !important;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
 }
 
 .cv-block.info h2 {
@@ -237,4 +237,15 @@ p {
     font-size: .75rem;
     background-color: #e9ecef;
     border-radius: 0.25rem;
+}
+
+.cv-block.info .group h2+.item {
+    padding-top: 25px;
+    border-top: 1px solid #eee;
+}
+
+.cv-block.info .group .item {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
 }
